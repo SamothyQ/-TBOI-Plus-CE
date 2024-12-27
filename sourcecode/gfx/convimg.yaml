@@ -1,0 +1,65 @@
+palettes:
+  - name: global_palette
+    fixed-entries:
+      - color: {index: 0, r: 255, g: 0, b: 0} 
+      - color: {index: 1, r: 255, g: 255, b: 255} 
+      - color: {index: 2, r: 0, g: 0, b: 0} 
+      - color: {index: 3, r: 113, g: 72, b: 53} 
+      - color: {index: 4, r: 0, g: 0, b: 128} 
+      - color: {index: 5, r: 255, g: 255, b: 0} 
+      - color: {index: 6, r: 0, g: 255, b: 0}
+      - color: {index: 7, r: 127, g: 127, b: 127}
+      - color: {index: 8, r: 84, g: 55, b: 40}
+      - color: {index: 9, r: 48, g: 47, b: 50}
+    images: automatic
+
+converts:
+  - name: sprites
+    palette: global_palette
+    images:
+      - isaac1.png
+      - gaper.png
+      - fly.png
+      - dukeofflies.png
+      - dingle.png
+      - dinner.png
+      - woodenspoon.png
+      - catoninetails.png
+      - magicmush.png
+      - spoonbender.png
+      - polyphemus.png
+      - twentytwenty.png
+      - toughlove.png
+      - lokishorns.png
+      - luckyfoot.png
+      - thevirus.png
+      - thedsix.png
+      - bookofbelial.png
+      - yumheart.png
+      - wirecoathanger.png
+      - momslipstick.png
+      - rock.png
+      - halfheart.png
+      - fullheart.png
+      - soulheart.png
+      - bomb.png
+      - key.png
+      - nickel.png
+      - penny.png
+      - maw.png
+      - maggot.png
+      - globin.png
+      - vis.png
+      - monstrotwo.png
+      - peep.png
+      - gurdy.png
+      - loki.png
+
+outputs:
+  - type: c
+    include-file: gfx.h
+    palettes:
+      - global_palette
+    converts:
+      - sprites
+
