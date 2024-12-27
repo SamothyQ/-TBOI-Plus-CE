@@ -3,7 +3,6 @@
 #include <keypadc.h>
 #include <math.h>
 
-/* Include the sprite data */
 #include "gfx/gfx.h"
 
 #define START_X ((GFX_LCD_WIDTH - (isaac1_width * 3)) / 2)
