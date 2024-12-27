@@ -14,3 +14,5 @@ Begin - [Y=]
 CREDITS
 
 This would not have been possible if it weren't for the creators of the TI-84 Plus CE C Toolchain's (https://ce-programming.github.io/) resources on converting C code to ez80 assembly. Sprites, and C programming done by SamothyQ.
+
+This is my first time writing C code, as well as my first time using GitHub, so if there are any issues with the repository or egregious issues with the way I coded it, constructive criticism is welcomed.
